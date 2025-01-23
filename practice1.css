@@ -174,9 +174,25 @@ div.dotted-line10{
     bottom: 592px;
 }
 
-div.curved-line1{
+div.curved-line1-container{
     width: 618px; 
-    height: 100px;  
+    height: 108px;  
+}
+
+img {
+    width: 40px;
+    height: 20px;
+}
+
+#image{
+    position: absolute;
+    bottom: 50px;
+    transform: rotate(-30deg);
+}
+
+div#curved-line1{
+    width: 618px;
+    height: 100px;
     border: solid 4px #000;
     border-color: #000 transparent transparent transparent;
     border-radius: 50%/70px 100px 0 0;
@@ -309,31 +325,120 @@ div#text4{
 }
 
 
-div#image{
+/* div#image{
     position: relative;
     width: 97px;
     height: 100px;
-    bottom: 1900px;
-    left: 200px;    
+    bottom: 1953px;
+    left: 120px;    
     font-weight: bold;
     font-size: 17px;
-}
+} */
 
-
-img{
-    width: 80px;
-    height: 40px;
-}
 
 p#speed{
     width: 60px;
     height: 40px;
 }
 
+div#time{
+    position: relative;
+    height: 20px;
+    width: 40px;
+    bottom: 1300px;
+    left: 300px;
+    font-size: large;
+    font-weight: bold;
+}
+
+div#time1{
+    position: relative;
+    height: 20px;
+    width: 40px;
+    bottom: 1317px;
+    left: 690px;
+    font-size: large;
+    font-weight: bold;
+}
+
+div#time2{
+    position: relative;
+    height: 20px;
+    width: 40px;
+    bottom: 1337px;
+    left: 950px;
+    font-size: large;
+    font-weight: bold;
+}
+
+div#time3{
+    position: relative;
+    height: 20px;
+    width: 40px;
+    bottom: 1357px;
+    left: 1190px;
+    font-size: large;
+    font-weight: bold;
+}
+
+div#time4 {
+    position: relative;
+    height: 20px;
+    width: 40px;
+    bottom: 1457px;
+    left: 1190px;
+    font-size: large;
+    font-weight: bold;
+}
+
+div#time5 {
+    position: relative;
+    height: 20px;
+    width: 40px;
+    bottom: 1557px;
+    left: 1190px;
+    font-size: large;
+    font-weight: bold;
+}
+
+div#time6 {
+    position: relative;
+    height: 20px;
+    width: 40px;
+    bottom: 1657px;
+    left: 1190px;
+    font-size: large;
+    font-weight: bold;
+}
+
+div#time7 {
+    position: relative;
+    height: 20px;
+    width: 40px;
+    bottom: 1757px;
+    left: 1190px;
+    font-size: large;
+    font-weight: bold;
+}
+
+div#time8 {
+    position: relative;
+    height: 20px;
+    width: 40px;
+    bottom: 1857px;
+    left: 1190px;
+    font-size: large;
+    font-weight: bold;
+}
 
 
-
-
+p{
+    position: relative;
+    width: 90px;
+    height: 20px;
+    bottom: 240%;
+    left:90%;
+}
 
 
 

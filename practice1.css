@@ -53,7 +53,7 @@ div.dotted-line{
     position: relative;
     bottom: 100px;
     left: 85px;
-    width: 1268px;
+    width: 1266px;
     bottom: 97px;
     font-weight: bolder;
     font-size: large;
@@ -174,7 +174,23 @@ div.dotted-line10{
     bottom: 592px;
 }
 
-div.curved-line1-container{
+
+div#curved-lines{
+    position: absolute;
+    bottom: 0;
+    width: 1840px;
+    height: 864px;
+}
+
+#image{
+    position: absolute;
+    bottom: 780px;
+    height: 20px;
+    width: 30px;
+    left: 100px;
+}
+
+/* div.curved-line1-container{
     width: 618px; 
     height: 108px;  
 }
@@ -324,8 +340,7 @@ div#text4{
     font-weight: bold;    
 }
 
-
-/* div#image{
+ div#image{
     position: relative;
     width: 97px;
     height: 100px;
@@ -333,7 +348,7 @@ div#text4{
     left: 120px;    
     font-weight: bold;
     font-size: 17px;
-} */
+} 
 
 
 p#speed{
@@ -438,9 +453,4 @@ p{
     height: 20px;
     bottom: 240%;
     left:90%;
-}
-
-
-
-
-
+}*/
